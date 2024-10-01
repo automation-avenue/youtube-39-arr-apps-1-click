@@ -144,6 +144,9 @@ services:
     volumes:
       - ${ARRPATH}Jellyfin/config:/config
       - ${ARRPATH}Downloads:/data/Movies
+# You can start splitting your folders if you wish:
+#     - ${ARRPATH}Radarr/movies:/data/Movies
+#     - ${ARRPATH}Sonarr/tvshows:/data/TVShows
     env_file:
       - '.env'
     restart: unless-stopped
