@@ -86,4 +86,5 @@ Once Jellyfin is up - log on using<br />
 http://localhost:8096<br />
 Note that currently everything ( Movies, Shows etc ) is under 1 folder - its /data/Movies <br />
 Add that as Media folder to Jellyfin<br />
+There are many improvements that can be done, treat this as a template rather than complete solution ! <br />
 
