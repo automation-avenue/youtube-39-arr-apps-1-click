@@ -8,11 +8,11 @@ Video 39 - Deploy ARR apps using just 1 command (full set with Jellyfin and qBit
 
 ### Download and unzip Files from GitHub:
 https://github.com/automation-avenue/youtube-39-arr-apps-1-click <br />
-cd /home/marek/Downloads
-unzip youtube-39-arr-apps-1-click
+cd /home/marek/Downloads <br />
+unzip youtube-39-arr-apps-1-click <br />
 
 ### Installation process:
-Make sure you are in the same folder as docker-compose.yml and .env file, then:<br />
+Make sure you are in the same folder as docker-compose.yml and .env file, then 'up' to deploy, 'stop' and 'rm' to stop and remove the stack  :<br />
 
 ```bash
 sudo docker-compose up -d 
@@ -38,7 +38,7 @@ The WebUI administrator password was not set. A temporary password is provided f
 Now you can go to URL:<br />
 http://localhost:8080<br />
 and log on using details provided in container logs.<br />
-Go to Tools - Options - WebUI - change the user and password and tick 'bypass authentication for clients on localhost.<br />
+Go to Tools - Options - WebUI - change the user and password and tick 'bypass authentication for clients on localhost' .<br />
 
 Then first configure Prowlarr service (each of these services will require to set up user/pass):<br />
 
