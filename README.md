@@ -7,7 +7,9 @@ Video 39 - Deploy ARR apps using just 1 command (full set with Jellyfin and qBit
 - [Ascii ART](https://patorjk.com/software/taag/#p=display&f=ANSI%20Shadow)
 
 ### Download and unzip Files from GitHub:
-TODO - paste github and youtube links<br />
+https://github.com/automation-avenue/youtube-39-arr-apps-1-click <br />
+cd /home/marek/Downloads
+unzip youtube-39-arr-apps-1-click
 
 ### Installation process:
 Make sure you are in the same folder as docker-compose.yml and .env file, then:<br />
