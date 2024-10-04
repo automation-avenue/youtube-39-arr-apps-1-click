@@ -82,12 +82,8 @@ Arr stack completed - you can now 'add movie' in radarr or 'add series' in sonar
 http://localhost:8096<br />
 If you run `docker-compose up` and have something running on port 1900 -  its most possibly rygel service, run:<br />
 `sudo apt-get remove rygel` and run the `sudo docker-compose up -d` again.<br />
-Once Jellyfin is up - log on using<br />
-http://localhost:8096<br />
-Note that currently everything ( Movies, Shows etc ) is under 1 folder - its /data/Movies <br />
-Add that as Media folder to Jellyfin<br />
-You can start splitting the content if you wish, like:<br />
-      - ${ARRPATH}Radarr/movies:/data/Movies <br />
-      - ${ARRPATH}Sonarr/tvshows:/data/TVShows <br />
-There are many improvements that can be done, treat this as a template rather than complete solution ! <br />
-
+Then add media library in Jellyfin  matching folders configured in docker-compose.yml file, so in Jellyfin you should see them as: <br />
+/data/Movies <br />
+/data/TVShows <br />
+/data/Music <br />
+/data/Books <br />

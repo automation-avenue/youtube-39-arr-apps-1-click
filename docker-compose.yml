@@ -143,10 +143,10 @@ services:
       - '1900:1900/udp'   # DLNA port
     volumes:
       - ${ARRPATH}Jellyfin/config:/config
-      - ${ARRPATH}Downloads:/data/Movies
-# You can start splitting your folders if you wish:
-#     - ${ARRPATH}Radarr/movies:/data/Movies
-#     - ${ARRPATH}Sonarr/tvshows:/data/TVShows
+      - ${ARRPATH}Radarr/movies:/data/Movies
+      - ${ARRPATH}Sonarr/tvshows:/data/TVShows
+      - ${ARRPATH}Lidarr/music:/data/Music
+      - ${ARRPATH}Readarr/books:/data/Books
     env_file:
       - '.env'
     restart: unless-stopped
